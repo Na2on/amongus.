@@ -10,4 +10,14 @@
   .menu-icon {
     display: block;
   }
+
+  .top-wrapper {
+    background-size: 200%;
+  }
+}
+
+@media(max-width: 400px) {
+  .top-wrapper {
+    background-size: 300%;
+  }
 }
