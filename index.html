@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Among Us Wiki</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="responsive.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="header-title">
+					<div id="top-btn" class="header-logo">Among Us</div>
+				</div>
+				<div class="header-menu">
+					<ul class="header-menu-right">
+						<li>
+							<a href="#overview">概要</a><!-- overview -->
+						</li>
+						<li>
+							<a href="#role">役割</a><!-- role -->
+						</li>
+						<li>
+							<a href="#purpose">役割ごとの目的</a>
+						</li>
+						<li>
+							<a href="#operation">操作方法</a><!-- oparetion -->
+						</li>
+						<li>
+							<a href="#map">MAP</a><!-- map -->
+						</li>
+					</ul>
+					<a href="#" class="menu-icon"><span class="fa fa-bars"></span></a>
+				</div>
+			</div>
+		</header>
+		<div class="top-wrapper">
+			<div class="container">
+				<div class="top-text">
+					<h3>Among Us ~ 宇宙人狼 ~</h3>
+					<p>Among Usとは、人狼系ゲームの宇宙版です。</p>
+				</div>
+			</div>
+		</div>
+		<div id="overview" class="overview-wrapper">
+			<div class="container">
+				<div class="overview-title title">
+					<h3>概要</h3>
+				</div>
+				<h2>Among Usとは</h2>
+				<p>Among Usとは、４人～１０人で遊べるパーティゲームです。プレイヤーはゲーム開始時に、crewmate（クルーメイト）とimposter（インポスター）の２陣営に分かれます。crewmateは、TASK（タスク）と呼ばれる脱出ミッションを完遂することで、脱出し勝利となります。一方、imposterはcrewmateがTASKを完遂する前に、SABOTAGE（サボタージュ）で妨害しながらcrewmateを捕食していきます。プレイヤーはお互いに議論し、imposterと思わしきプレイヤーに投票し、追放していきます。</p>
+			</div>
+		</div>
+		<div id="role" class="role-wrapper">
+			<div class="container">
+				<div class="role-title title">
+					<h3>役割</h3>
+				</div>
+				<div id="role-carousel" class="role-slide">
+					<ol class="role-list">
+						<li data-target="#role-carousel" data-serect="0" class="active"><span></span></li>
+						<li data-target="#role-carousel" data-serect="1" class=""><span></span></li>
+						<li data-target="#role-carousel" data-serect="2" class=""><span></span></li>
+					</ol>
+					<div class="role-inner">
+						<div class="item role-box active">
+							<img src="image/character/blue.png" class="role-image" title="crewmate">
+							<h4>crewmate</h4>
+							<h3>脱出せよ</h3>
+						</div>
+						<div class="item role-box">
+							<img src="image/character/red.png" class="role-image" title="imposter">
+							<h4>imposter</h4>
+							<h3>捕食せよ</h3>
+						</div>
+						<div class="item role-box">
+							<img src="image/character/Ghost.png" class="role-image" title="ghost">
+							<h4>ghost</h4>
+							<h3>...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="purpose" class="purpose-wrapper">
+			<div class="container">
+				<div class="purpose-title title">
+					<h3>役割ごとの目的</h3>
+				</div>
+				<table class="role-table">
+					<tr colspan="2">
+						<th>役割</th>
+						<th>目的</th>
+					</tr>
+					<tr class="crewmate" colspan=2>
+						<td align="center">crewmate</td>
+						<td width="90%">
+							crewmateは、全てのタスクを進め、imposterの妨害・捕食を防ぎながら、imposterがいなくなるまで投票と追放を続けます。タスクが完了するか、すべてのimposterを追放すれば勝ちです。
+						</td>
+					</tr>
+					<tr class="imposter" colspan="2">
+						<td align="center">imposter</td>
+						<td>
+							imposterは、SABOTAGEで妨害しながら追放されずに、crewmateを残りのimposterの数と同数まで捕食すれば勝ちです。
+						</td>
+					</tr>
+					<tr class="ghost" colspan="2">
+						<td align="center">ghost</td>
+						<td>
+							死人に口なし。
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="operation" class="operation-wrapper">
+			<div class="container">
+				<div class="operation-title title">
+					<h3>操作方法</h3>
+				</div>
+				<div class="keybind">
+					<h2>キーバインドの変更</h2>
+					<p>歯車マークから、移動方法を変更できます。</p>
+					<p>General → Controls</p>
+					<p>①Mouse</p>
+					<p>マウス左クリックで、キャラクターの移動</p>
+					<p>②Mouse + Keyborad</p>
+					<p>キーボードのWASDで、キャラクターの移動</p>
+				</div>
+				<table class="keybind-table">
+					<tr colspan="2">
+						<th height="70px">アクション</th>
+						<th>ホットキー</th>
+					</tr>
+					<tr class="移動" >
+						<td align="center" width="20%">移動</td>
+						<td>
+							矢印キー　または　WASD（またはテンキー）
+						</td>
+					</tr>
+					<tr class="使用する">
+						<td align="center">使用する</td>
+						<td>
+							E　または　スペース
+						</td>
+					</tr>
+					<tr class="キル">
+						<td align="center">キル</td>
+						<td>
+							Q
+						</td>
+					</tr>
+					<tr class="報告する">
+						<td align="center">報告する</td>
+						<td>
+							R
+						</td>
+					</tr>
+					<tr class="マップ">
+						<td align="center">マップ</td>
+						<td>
+							Tab
+						</td>
+					</tr>
+					<tr class="サボタージュ">
+						<td align="center">サボタージュ</td>
+						<td>
+							E　または　スペース（いつでも）
+						</td>
+					</tr>
+					<tr class="現在の選択をキャンセル">
+						<td align="center">現在の選択をキャンセル</td>
+						<td>
+							Esc
+						</td>
+					</tr>
+					<tr class="フルスクリーンの切り替え">
+						<td align="center">フルスクリーンの切り替え</td>
+						<td>
+							Alt + Enter
+						</td>
+					</tr>
+					<tr class="ミニゲームの相互作用">
+						<td align="center">ミニゲームの相互作用</td>
+						<td>
+							マウスのみ
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="map" class="map-wrapper">
+			<div class="container">
+				<div class="map-title title">
+					<h3>MAP</h3>
+				</div>
+				<div class="map-text">
+					<h2>▷マップは、３種類ある。</h2>
+				</div>
+				<div class="map-image">
+					<h2>THE SKELD</h2>
+					<a href="image/map/SKELD.jpg" data-lightbox="group"><img src="image/map/SKELD.jpg" alt="THE SKELD" title="THE SKELD" width="300"></a>
+					<h2>MIRAHQ</h2>
+					<a href="image/map/MIRAHQ.jpg" data-lightbox="group"><img src="image/map/MIRAHQ.jpg" alt="MIRAHQ" title="MIRAHQ" width="300"></a>
+					<h2>POLUS</h2>
+					<a href="image/map/POLUS.jpg" data-lightbox="group"><img src="image/map/POLUS.jpg" alt="POLUS" title="POLUS" width="300"></a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="footer-link">
+					<div class="twitter-link link">
+						<a href="https://twitter.com/AmongUsGame?s=20" target="_blank" rel="noopener noreferrer">TWITTER<i class="fab fa-twitter"></i></a>
+					</div>
+					<div class="discord-link link">
+						<a href=" http://discord.gg/innersloth" target="_blank" rel="noopener noreferrer">DISCORD<i class="fab fa-discord"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
