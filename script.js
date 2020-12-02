@@ -1,5 +1,7 @@
 $(function() {
-
+  $('#header-menu-icon').click(function() {
+    $('#header-menu-icon-bars').fadeIn();
+  })
 
   $('#top-btn').click(function() {
     $('html, body').animate({
