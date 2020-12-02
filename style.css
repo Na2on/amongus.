@@ -123,6 +123,30 @@ header {
   float: right;
   margin-right: 10px;
   display: none;
+  color: #888;
+}
+
+.header-menu-icon-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: non;
+  z-index: 100;
+}
+
+.header-menu-icon-modal a {
+  border-bottom: 1px solid black;
+  color: #888;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.modal {
+  position: absolute;
+
 }
 
 /* top-wrapper */
@@ -265,6 +289,7 @@ footer {
 }
 
 .fab {
-  margin-right: 20px;
-  color: black;
+  margin: 30px;
+  color: #888;
+  font-size: 40px;
 }
