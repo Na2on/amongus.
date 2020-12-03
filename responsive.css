@@ -1,6 +1,19 @@
 @media(max-width: 1000px) {
+  .keybind-table {
+    width: 100%;
+  }
+
+  .top-wrapper {
+    height: 700px;
+  }
+
   .top-text {
     font-size: 25px;
+    padding-top: 240px;
+  }
+
+  .fab {
+    font-size: 40px;
   }
 }
 
@@ -14,11 +27,13 @@
   }
 
   .top-wrapper {
-    background-size: 200%;
+    background-size: 250%;
+    height: 970px;
   }
 
   .top-text {
-    font-size: 20px
+    padding-top: 350px;
+    font-size: 25px;
   }
 
   .role-table {
@@ -30,12 +45,83 @@
   }
 }
 
-@media(max-width: 400px) {
-  .top-wrapper {
-    background-size: 300%;
+
+@media(max-width: 425px) {
+  table {
+    font-size: 12px;
   }
 
-  .footer-link {
+  .modal {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: 425px;
+  }
 
+  .top-wrapper {
+    background-size: 300%;
+    height: 690px;
+  }
+
+  .top-text {
+    padding-top: 250px;
+    font-size: 20px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  .fab {
+    margin: 20px;
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 375px) {
+  .modal {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 375px;
+  }
+
+  .top-wrapper {
+    background-size: 400%;
+    height: 620px;
+  }
+
+  .top-text {
+    padding-top: 230px;
+    font-size: 15px;
+  }
+
+  .fab {
+    margin: 30px;
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 320px) {
+  .modal {
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 320px;
+  }
+
+  .top-wrapper {
+    background-size: 400%;
+    height: 525px;
+  }
+
+  .top-text {
+    padding-top: 200px;
+    font-size: 13px;
+  }
+
+  .fab {
+    margin: 20px;
+    font-size: 30px;
   }
 }
