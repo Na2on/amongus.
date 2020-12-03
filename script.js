@@ -19,6 +19,7 @@ $(function() {
     $('html, body').animate({
       'scrollTop': position
     }, 500);
+    $('.menu-icon-modal-wrapper').slideUp();
   });
 
   $('.header-menu-icon-modal a').click(function() {
@@ -27,5 +28,6 @@ $(function() {
     $('html, body').animate({
       'scrollTop': position
     }, 500);
+    $('.menu-icon-modal-wrapper').slideUp();
   });
 });
