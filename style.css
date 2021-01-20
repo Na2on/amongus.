@@ -5,8 +5,8 @@
 
 body {
   width: 100%;
-  background-image: url(image/ SHEE.jpg);
   color: #888;
+  margin-left: 0px;
 }
 
 li {
@@ -62,14 +62,8 @@ table {
   height: 500px;
 }
 
-.keybind-table th {
-}
-
 .keybind-left {
   text-align: center;
-}
-
-.keybind-right {
 }
 
 td {
@@ -140,10 +134,6 @@ header {
   color: blue;
 }
 
-.header-menu {
-
-}
-
 .menu-icon-modal-wrapper {
   position: fixed;
   top: 0;
@@ -196,10 +186,6 @@ header {
 }
 
 /* overview */
-.overview-wrapper {
-
-}
-
 .overview-wrapper h2, .overview-warapper p {
   width: 75%;
   margin: 0 auto;
@@ -211,15 +197,8 @@ header {
 }
 
 /* role */
-.role-wrapper {
-
-}
-
 .role-box h3, h4 {
   text-align: center;
-}
-
-.role-box {
 }
 
 .role-image {
@@ -248,22 +227,9 @@ header {
   list-style: block;
 }
 
-li span {}
-
 /* purpose */
-.purpose-wrapper {
-
-}
 
 /* operation */
-.operation-wrapper {
-
-}
-
-.keybind {
-
-}
-
 .keybind h2 {
   text-align: center;
 }
@@ -273,10 +239,6 @@ li span {}
 }
 
 /* map */
-.map-wrapper {
-
-}
-
 .map-wrapper h2 {
   text-align: center;
 }
@@ -291,6 +253,7 @@ footer {
   color: white;
   height: 200px;
   background-color: black;
+  margin-bottom: -10px;
 }
 
 footer {
@@ -302,7 +265,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .link {
